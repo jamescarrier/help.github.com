@@ -21,7 +21,7 @@ At some point you may find yourself wanting to contribute to someone else's proj
 </li>
 </ol>
 
-##Next: Set Up Your Local Repo
+##Second: Set Up Your Local Repo
 
 You've successfully forked the Spoon-Knife repo, but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
 
@@ -60,22 +60,34 @@ You've successfully forked the Spoon-Knife repo, but so far it only exists on Gi
 </li>
 </ol>
 
-##<span class="step">Then:</span> More Things You Can Do
+##<span class="step">Third:</span> Write your awesome code
+
+<p>Once you've made changes to a file in your local fork, you'll need to commit it. Committing adds your changes to the history of your repository and assigns a short commit message to it.</p>
+
+<div class="more-info">
+  <h4 class="compressed">More about commits</h4>
+  <div class="more-content">
+    <p>
+      Think of a <em>commit</em> as a snapshot of your project &mdash;code, files, everything &mdash; at a particular point in time. More accurately, after your first commit, each subsequent commit is only a snapshot of your changes. For code files, this means it only takes a snapshot of the lines of code that have changed. For everything else like music or image files, it saves a new copy of the file.
+    </p>
+  </div>
+</div>
+
+- <span class="step-title">Commit changes</span>
+
+  <pre class="terminal bootcamp">
+  <span class="codeline">$ git add <em>your-file-name</em><span>Stages changes to your-file-name ready for committing</span></span>
+  <span class="codeline">$ git commit -m "<em>Your commit message here</em>"<span>Commit your queued changes</span></span>
+  </pre>
+
+
+##<span class="step">Then:</span> More things you can do
 
 You&rsquo;ve successfully forked a repo, but get a load of these other cool things you can do:
 
 - <span class="step-title">Push commits</span>
 
   Once you&rsquo;ve made some commits to a forked repo and want to push it to your forked project, you do it the same way you would with a regular repo:
-
-  <div class="more-info">
-    <h4 class="compressed">More about commits</h4>
-    <div class="more-content">
-      <p>
-        Think of a <em>commit</em> as a snapshot of your project &mdash;code, files, everything &mdash; at a particular point in time. More accurately, after your first commit, each subsequent commit is only a snapshot of your changes. For code files, this means it only takes a snapshot of the lines of code that have changed. For everything else like music or image files, it saves a new copy of the file.
-      </p>
-    </div>
-  </div>
 
   <pre class="terminal bootcamp">
   <span class="codeline">$ git push origin master<span>Pushes commits to your remote repo stored on GitHub</span></span>
